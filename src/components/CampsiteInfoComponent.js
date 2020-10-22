@@ -48,7 +48,7 @@ import {Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
                 <div className="container">
                     <div className="row">
                         <RenderCampsite campsite ={props.campsite} />
-                        <RenderComments comments={props.campsite.comments} />
+                        <RenderComments comments={props.comments} />
                     </div>
                 </div>
             );
